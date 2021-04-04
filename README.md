@@ -1,51 +1,51 @@
-Project Name
-One paragraph statement about the project.
+# The New York times article page
+
+> This Project is a clone of the New York Times article page ![](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
+![](/images/projectpreview.png)
 
 
-screenshot
 
-Additional description about the project and its features.
+## Built With
+- HTML
+- CSS
+- Coffee
 
-Built With
-Major languages
-Frameworks
-Technologies used
-Live Demo
-Live Demo Link
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+## Live Demo
 
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link]( https://anasscodes.github.io/The-New-York-Times-Article-Page/)
 
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-Authors
-👤 Author1
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-👤 Author2
+## Authors
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-🤝 Contributing
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/Anasscodes)
+- Twitter: [@twitterhandle](https://twitter.com/AnassTantane)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anass-tantane-706172194/)
+
+
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](issues/).
 
-Show your support
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
-📝 License
-This project is MIT licensed.
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+=======
+# Project Sneak Peaks
+
