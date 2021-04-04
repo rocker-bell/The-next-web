@@ -1,8 +1,8 @@
-# The New York times article page
+# The Next Web
 
-> This Project is a clone of the New York Times article page ![](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+> This Project is a clone of the The Next Web website ![](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
-![](/images/projectpreview.png)
+![]()
 
 
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://anasscodes.github.io/The-New-York-Times-Article-Page/)
+[Live Demo Link]( )
 
 
 ## Authors
