@@ -22,19 +22,27 @@ body {
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+header{
+  padding:10px;
+  width: 100%;
+  height: 122px;
+  background-color: #fff;
+  border: 0px solid #999;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.rightnav a{
+  padding: 10px 10px;
+  border-left: 1px solid #ccc;
 }
 
-a:hover {
-  color: #333;
+.fas{
+  color: #999;
 }
 
+.mobile{
+  display: flex;
+  justify-content: space-between;
+}
 /*
     ==============================================
                 ****** GLOBAL ******
