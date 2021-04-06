@@ -5,6 +5,7 @@
 */
 body {
   margin: 0;
+  display: ;
 }
 
 :root {
@@ -21,15 +22,78 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+ /* ------ HEADER ------ */
 header {
   width: 100%;
   height: 150px;
-  border:1px solid black;
+  border:1px solid green;
   position: fixed;
-
 }
 
+.header-black {
+  border: 2px black solid;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+.left-nav ul,
+.right-nav ul {
+  display: flex;
+}
+
+.right-nav li {
+  border-left: 1px solid #ccc;
+}
+
+.right-nav li, 
+.left-nav li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.right-nav li a,
+.left-nav li a {
+  text-decoration: none;
+  color: #999;
+}
+
+.right-nav li a:hover,
+.left-nav li a:hover {
+  color: #fff;
+}
+
+.header-white {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+  color: #333;
+}
+
+.second-header li a:hover {
+  color: #000;
+}
+
+.second-header {
+  padding: 10px 10px;
+}
+
+.search {
+  
+  padding:  ;
+  border-left: 1px solid #999;
+}
+
+
+
+ 
+ /* ------ SECTION 3 ------ */
 
 .section3 {
   width: 80%;
