@@ -3,6 +3,8 @@
                 ****** RESET ******
     ==============================================
 */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
   
@@ -129,13 +131,17 @@ main {
   padding: 20px 20px;
   width: 1000px;
   height: 500px;
-  background-image:  url(Images/google-calendar.jpg);
+  background-image:  linear-gradient(rgba(235, 13, 13, 0.877), rgba(85, 5, 5, 0.2)), url(Images/google-calendar.jpg);
 }
 
 
 .content1-logo {
   display: flex;
   justify-content: space-between;
+}
+
+.content1-logo p {
+  color: #CCC;
 }
 
 .content1-logo a {
@@ -150,6 +156,7 @@ main {
 }
 
 .narrow-heading {
+  color: #CCC;
   display: flex;
 }
 
@@ -173,30 +180,58 @@ main {
 }
 
 .content2-firstblock {
+  padding-left: 10px;
   padding-top: 130px;
-  background-image: url(Images/boost.png);
+  background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(Images/boost.png);
 
 }
 
 .second-block-caption {
+  padding-left: 10px;
   padding-top: 130px;
 }
 
 
 .content2-secondblock {
   
-  background-image: url(Images/do-math.jpg);
+  background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(Images/do-math.jpg);
 }
 
+.insight {
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#first-title {
+  font-size: 30px;
+}
   /* ------ SECTION 2 ------ */
 
-.lastest-news {
+.latest-news {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
   border: 1px solid red;
+}
 
-  
+.image-cap1{
+  width: 250px;
+  height: 180px;
+  background-image: url();
 }
 
 .section2-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 250px;
   height: 150px;
   border: 1px solid black;
@@ -207,9 +242,15 @@ main {
  /* ------ SECTION 3 ------ */
 
 .section3 {
-  width: 80%;
+  width: 100%%;
   height: 800px;
   border:1px solid black;
+}
+
+.section3-header {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cards {
@@ -221,8 +262,31 @@ main {
 
 .section3-content-container {
   border: 1px solid red;
-  width: 300px;
-  height: 550px;
+  width: 280px;
+  height: 310px;
+}
+
+.first-block {
+  text-align: center;
+  padding-top: 5px;
+  align-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: orangered;
+  font-size: 15px;
+}
+
+.Second-block {
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 55px;
+  padding-top: 5px;
+  background-color: #f6e2de;
+}
+
+.third-block {
+  display: flex;
 }
 
 /* ------ footer ------ */
