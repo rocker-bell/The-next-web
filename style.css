@@ -25,7 +25,7 @@ body {
  /* ------ HEADER ------ */
 header {
   width: 100%;
-  height: 150px;
+  height: 100px;
   border:1px solid green;
   position: fixed;
 }
@@ -33,7 +33,7 @@ header {
 .header-black {
   border: 2px black solid;
   width: 100%;
-  height: 20%;
+  height: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +71,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 45%;
   background-color: #fff;
   color: #333;
 }
@@ -80,16 +80,29 @@ header {
   color: #000;
 }
 
-.second-header {
-  padding: 10px 10px;
-}
-
 .search {
-  
-  padding:  ;
+  padding: 12px 20px;
+  align-items: center;
   border-left: 1px solid #999;
 }
 
+.search a {
+  align-items: center;
+}
+
+.header-yellow{
+  background-color: yellow;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.header-yellow a {
+  text-decoration: none;
+  color: black;
+  font-family: ;
+}
 
 
  
