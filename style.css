@@ -82,7 +82,8 @@ header {
 }
 
 .search {
-  padding: 12px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
   border-left: 1px solid #999;
 }
@@ -119,27 +120,25 @@ header {
   margin: auto;
   width: 80%;
   height: 400px;
-  display: grid;
- grid-template-columns: 40% 25%;
- grid-gap: 150px;
-  
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .content1 {
-  background-image: url(Images/google-calendar.jpg);
-  background-position: center;
-  background-repeat: no-repeat; 
- background-size: 100% 100%;
-  border: 1px solid black;
-  width: 600px;
+  display: flex;
+  border: 1px solid green;
+  width: 1024px;
+  height: 452px;
+}
+
+.content1-image img { 
+  
+ 
 }
 
 .content2 {
-  width: 500px;
-  border: 1px solid black;
-  display: grid;
-  grid-template-rows: 47.5% 47.5%;
-  grid-gap: 8%;
+  
 
 }
 
@@ -154,6 +153,19 @@ header {
   height: 180px;
 }
 
+  /* ------ SECTION 2 ------ */
+
+.lastest-news {
+  border: 1px solid red;
+
+  
+}
+
+.section2-content-container {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+}
 
 
 
@@ -177,6 +189,58 @@ header {
   width: 300px;
   height: 550px;
 }
+
+/* ------ footer ------ */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+
+.first-section {
+  justify-content: center;
+  width: 100%;
+  height: 190px;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.social-media-links a {
+  padding:0 10px;
+  text-decoration-style: none;
+  color: #999;
+}
+
+.infos-links a{
+  padding: 0 5px;
+  text-decoration: none;
+  color: #999;
+}
+
+.social-media-links a:hover,
+.infos-links a:hover {
+  color: #fff;
+}
+
+.second-section{
+  width: 100%;
+  height: 110px;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flogo a img {
+  width: 91px;
+  height: 25px;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
