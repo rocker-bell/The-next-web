@@ -45,7 +45,7 @@ header {
 
 #header-logo {
   width: 75px;
-  height: 30px;
+  height: 100%;
 }
 
 .header-black {
@@ -103,10 +103,11 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
-  border-left: 1px solid #999;
+  /*border-left: 1px solid #999;*/
 }
 
 .search a {
+  color: #999;
   align-items: center;
 }
 
@@ -421,6 +422,45 @@ footer{
   width: 91px;
   height: 25px;
 }
+
+/* ----- MEDIA -----*/
+
+@media screen and (max-width: 768px) {
+  .header-black {
+    display: none;
+  }
+
+  #header-white-logo{
+    width: 100px;
+    height: 100%;
+  }
+
+  .header-white {
+    height: 60%;
+  }
+
+  .headerw-media li a {
+    display: none;
+  }
+
+  .headery-media {
+    justify-content: center;
+  }
+
+  .right-nav a {
+    padding-left: 10px;
+    border-left: 1px solid gray;
+    text-decoration: none;
+  }
+
+  .fa-bars {
+    color: #f42;
+  }
+
+  .
+
+}
+
 
 /*
     ==============================================
