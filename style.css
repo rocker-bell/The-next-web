@@ -101,6 +101,7 @@ header {
 .header-yellow{
   background-color: yellow;
   height: 35%;
+  padding-bottom: 5px;
   display: flex;
   align-items: center;
   padding-left: 10px;
