@@ -425,7 +425,7 @@ footer{
 
 /* ----- MEDIA -----*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .header-black {
     display: none;
   }
@@ -457,7 +457,58 @@ footer{
     color: #f42;
   }
 
-  .
+  .content {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content div {
+    margin: 10px 10px;
+  }
+
+  .content1 {
+    position: relative;
+    width: 670px;
+    height: 300px
+  }
+
+  .content1-logo{
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+  }
+
+  .content1-logo p {
+    margin-left: 40px;
+    font-size: 15px;
+  }
+
+  .caption {
+    position: absolute;
+    top: -90px;
+  }
+
+  .content2 {
+    display: flex;
+    position: relative;
+  }
+  .content2 div {
+    width: 670px;
+    height: 300px;
+  }
+
+  .content2-firstblock p {
+    position: absolute;
+    top: 230px;
+  }
+
+  .content2-secondblock div {
+    position: absolute;
+    top: 380px;
+  }
+
 
 }
 
