@@ -19,12 +19,13 @@
 
 ## Authors
 
-👤 **Author**
+👤 **Author 1**
 
 - GitHub: [@githubhandle](https://github.com/Anasscodes)
 - Twitter: [@twitterhandle](https://twitter.com/AnassTantane)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/anass-tantane-706172194/)
-
+- 
+👤 **Author 2**
 - GitHub: [@githubhandle](https://mobile.twitter.com/LilianM53742529)
 - Twitter: [@twitterhandle](https://www.linkedin.com/in/lilian-moraa-99950b1b8)
 - LinkedIn: [LinkedIn](https://github.com/lily-coder)
