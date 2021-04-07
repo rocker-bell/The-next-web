@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://anasscodes.github.io/The-New-York-Times-Article-Page/)
+[Live Demo Link](https://anasscodes.github.io/The-next-web/)
 
 
 ## Authors
