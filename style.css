@@ -3,19 +3,18 @@
                 ****** RESET ******
     ==============================================
 */
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 body {
   margin: 0;
-  
 }
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
 }
 
 :root {
@@ -32,7 +31,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
- /* ------ HEADER ------ */
+/* ------ HEADER ------ */
 
 header {
   overflow: hidden;
@@ -40,7 +39,6 @@ header {
   height: 100px;
   position: fixed;
   z-index: 2;
-
 }
 
 #header-logo {
@@ -68,7 +66,7 @@ header {
   border-left: 1px solid #ccc;
 }
 
-.right-nav li, 
+.right-nav li,
 .left-nav li {
   padding: 0 10px;
   list-style-type: none;
@@ -140,15 +138,19 @@ main {
 .content {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .content1 {
   padding: 20px 20px;
   width: 1000px;
   height: 500px;
-  background-image:  linear-gradient(rgba(235, 13, 13, 0.877), rgba(85, 5, 5, 0.2)), url(Images/google-calendar.jpg);
+  background-image: linear-gradient(
+      rgba(235, 13, 13, 0.877),
+      rgba(85, 5, 5, 0.2)
+    ),
+    url(Images/google-calendar.jpg);
 }
-
 
 .content1-logo {
   display: flex;
@@ -156,7 +158,7 @@ main {
 }
 
 .content1-logo p {
-  color: #CCC;
+  color: #ccc;
 }
 
 .content1-logo a {
@@ -167,7 +169,7 @@ main {
 }
 
 .narrow-heading {
-  color: #CCC;
+  color: #ccc;
   display: flex;
 }
 
@@ -186,15 +188,26 @@ main {
 }
 
 .content2 div {
-  width: 480px;
+  padding-top: 170px;
+  width: 100%;
   height: 230px;
 }
+.content3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content3 div {
+  width: 100%;
+  height: 230px;
+  
+}
 
-.content2-firstblock {
+.content2 {
   padding-left: 10px;
   padding-top: 130px;
-  background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(Images/boost.png);
-
+  background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)),
+    url(Images/boost.png);
 }
 
 .second-block-caption {
@@ -202,28 +215,27 @@ main {
   padding-top: 130px;
 }
 
-
-.content2-secondblock {
-  
-  background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(Images/do-math.jpg);
+.content3{
+  background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)),
+    url(Images/do-math.jpg);
 }
 
 .insight {
   font-size: 15px;
   color: #fff;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .title {
   font-size: 20px;
   color: #fff;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 
 #first-title {
   font-size: 30px;
 }
-  /* ------ SECTION 2 ------ */
+/* ------ SECTION 2 ------ */
 
 /*.latest-news {
   display: grid;
@@ -248,7 +260,7 @@ main {
   border: 1px solid black;
 }*/
 
- /* ------ SECTION 3 ------ */
+/* ------ SECTION 3 ------ */
 
 .section3 {
   width: 100%;
@@ -261,12 +273,12 @@ main {
 }
 
 .section3-header p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   color: #f42;
 }
 
-.section3-header-links{
+.section3-header-links {
   padding-top: 20px;
 }
 
@@ -277,7 +289,7 @@ main {
   border-left: 1px solid #f42;
   color: #f42;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .cards {
@@ -286,7 +298,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- }
+}
 
 .section3-content-container {
   width: 280px;
@@ -312,14 +324,14 @@ main {
   background-color: #f6e2de;
 }
 
-.section3-second-card  {
+.section3-second-card {
   padding-left: 20px;
 }
 
 .cards-logo img {
   width: 70px;
   height: 60px;
-  position:  absolute;
+  position: absolute;
   top: 20px;
   padding-left: 10px;
 }
@@ -368,7 +380,7 @@ main {
 
 /* ------ footer ------ */
 
-footer{
+footer {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -383,16 +395,15 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .social-media-links a {
-  padding:0 10px;
+  padding: 0 10px;
   text-decoration-style: none;
   color: #999;
 }
 
-.infos-links a{
+.infos-links a {
   padding: 0 5px;
   text-decoration: none;
   color: #999;
@@ -403,7 +414,7 @@ footer{
   color: #fff;
 }
 
-.second-section{
+.second-section {
   width: 100%;
   height: 110px;
   background-color: #111;
@@ -428,7 +439,7 @@ footer{
     display: none;
   }
 
-  #header-white-logo{
+  #header-white-logo {
     width: 100px;
     height: 100%;
   }
@@ -468,11 +479,11 @@ footer{
 
   .content1 {
     position: relative;
-    width: 670px;
-    height: 300px
+    width: 100%;
+    height: 300px;
   }
 
-  .content1-logo{
+  .content1-logo {
     justify-content: space-between;
     display: flex;
     align-content: center;
@@ -491,32 +502,35 @@ footer{
   .content2 {
     display: flex;
     position: relative;
-  }
-  .content2 div {
-    width: 670px;
-    height: 300px;
+    width: 100%;
   }
 
-  .content2-firstblock p {
+  
+/*.content2-block div {
     position: absolute;
     top: 230px;
+  }*/
+
+.content3 {
+    position: relative;
+    display: flex;
+    width: 100%;
   }
 
-  .content2-secondblock div {
+/*.content3-block div {
     position: absolute;
     top: 380px;
-  }
+}*/
 
-  .section3-header {
+.section3-header {
     display: flex;
     flex-direction: column;
-  }
+ }
 
   .cards {
     position: relative;
     display: flex;
     flex-direction: column;
-    
   }
 
   .section3-content-container {
@@ -531,12 +545,13 @@ footer{
     top: -10px;
   }
 
-
   footer {
     width: 100%;
   }
 }
 
+@media screen and (min-width: 1024px) {
+}
 
 /*
     ==============================================
