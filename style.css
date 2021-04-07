@@ -12,6 +12,12 @@ body {
   
 }
 
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
+}
+
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
@@ -27,6 +33,7 @@ body {
   box-sizing: border-box;
 }
  /* ------ HEADER ------ */
+
 header {
   overflow: hidden;
   width: 100%;
@@ -98,7 +105,7 @@ header {
   align-items: center;
 }
 
-.header-yellow{
+.header-yellow {
   background-color: yellow;
   height: 35%;
   padding-bottom: 5px;
@@ -110,9 +117,7 @@ header {
 .header-yellow a {
   text-decoration: none;
   color: black;
-  
 }
-
 
 /* ------ SECTION 1 ------ */
 
@@ -214,7 +219,7 @@ main {
 }
   /* ------ SECTION 2 ------ */
 
-.latest-news {
+/*.latest-news {
   display: grid;
   justify-items: center;
   grid-template-columns: 25% 25% 25% 25%;
@@ -235,9 +240,7 @@ main {
   width: 250px;
   height: 150px;
   border: 1px solid black;
-}
-
-
+}*/
 
  /* ------ SECTION 3 ------ */
 
@@ -300,6 +303,10 @@ main {
   background-color: #f6e2de;
 }
 
+.section3-second-card  {
+  padding-left: 20px;
+}
+
 .cards-logo img {
   width: 70px;
   height: 60px;
@@ -315,14 +322,28 @@ main {
   background-color: #fcede8;
 }
 
+
+
 .first-link-line {
   padding: 10px 10px;
   display: flex;
 }
 
+.first-link-line a {
+  text-decoration: none;
+  padding: 2px 10px;
+  color: #000;
+}
+
 .second-link-line {
   padding: 10px 10px;
   display: flex;
+}
+
+.second-link-line a {
+  color: #000;
+  text-decoration: none;
+  padding: 2px 10px;
 }
 
 .forth-block {
